@@ -1,0 +1,31 @@
+body {
+  background-color: lavender;
+}
+
+/* div {
+  background-color: peachpuff;
+} */
+
+#content-wrapper {
+  background-color: peachpuff;
+}
+
+.main-heading {
+  background-color: aqua;
+}
+
+.nav-item {
+  background-color: mediumpurple;
+}
+
+.nav-item:last-child {
+  background-color: gold;
+}
+
+#first-paragraph {
+  background-color: lightcoral;
+}
+
+.list-item {
+  background-color: darkseagreen;
+}
