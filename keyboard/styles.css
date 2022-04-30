@@ -38,6 +38,7 @@ body {
     font-size: 16px;
     background-color: #fff;
     border-style: inset;
+    cursor: pointer;
 }
 
 .selected {

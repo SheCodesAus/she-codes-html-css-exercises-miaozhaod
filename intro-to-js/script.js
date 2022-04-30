@@ -1,29 +1,44 @@
-window.onload = function() {
-    // start
+window.onload = function () {
+  // start
+  let starterDiv = document.getElementById("starter-div");
 
-    // end
-}
+  let firstHeading = document.createElement("h2");
+  firstHeading.innerText = "This is an H2 created with JavaScript";
+  firstHeading.classList.add("js-header");
+  starterDiv.appendChild(firstHeading);
 
+  let secondHeading = document.createElement("h2");
+  secondHeading.innerText = "This is another H2 created with JS!";
+  secondHeading.classList.add("js-header");
+  secondHeading.id = "second-h2";
+  starterDiv.appendChild(secondHeading);
+  // end
+};
 
-function showName(){
-    console.log('showName');
-    // start
+function showName() {
+  console.log("showName");
+  // start
+  let name = document.getElementById("name").value;
+  console.log("This is your name variable: ", name);
 
-    // end
+  document.getElementById("greeting-text").innerText =
+    "Hey! " + name + ", you are cool";
+  // end
 }
 
 function changeColour(colour) {
-    // start
-
-    // end
+  // start
+  document.body.style.backgroundColor = colour;
+  // end
 }
 
 function resetColour() {
-    document.body.style.backgroundColor = '#FCE166';
+  document.body.style.backgroundColor = "#FCE166";
 }
 
 function toggleLightbulb() {
-    // start
-
-    // end
+  // start
+  let lightbulb = document.getElementById("light");
+  lightbulb.classList.toggle("on");
+  // end
 }
